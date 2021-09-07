@@ -1,0 +1,169 @@
+@import "../../../Sass/_querys";
+
+.Header {
+ 
+    background-color: gray
+
+    /* propertys here */
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+  
+ 
+}
+.logo-header{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+background-color: black;
+@include desktop{
+    width: 100%;
+}
+
+    >img{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 20%;
+        height: 29px;
+        @include mobile-landscape{
+            margin-top: 5%;
+            width: 10%;
+        }
+        @include tablet-landscape{
+  
+            width: 10%; 
+        }
+        @include tablet{
+            margin-top: 6.5%;
+            width: 10%;
+            
+        }
+        
+        
+  
+        
+ 
+    }
+    >h3{
+        font-size: 1rem;
+        padding-left: 10%;
+        font-style: italic;
+        color: white;
+        @include mobile-landscape{
+            font-size: 1.5rem;
+        }
+        @include tablet{
+            font-size: 2rem;
+        }
+        @include desktop{
+            font-size: 1rem;
+        }
+        
+    }
+}
+.menu-burger{
+
+    width:20%;
+background-color: black;
+@include desktop{
+    display: none;
+}
+
+    >img {
+        margin-top: 10%;
+        margin-left: 25%;
+        width: 55%;
+        @include mobile-landscape{
+            margin-top: 10%;
+            width: 30%;
+            margin-left: 55%;
+            
+        }
+        @include tablet{
+            margin-top: 12%;
+            width: 40%;
+            margin-left: 45%;
+         
+            
+        }
+        @include tablet-landscape{
+            width: 30%;
+            margin-left: 60%;
+        }
+        
+ 
+    }
+}
+.menu-list{
+background-color: rgb(150, 150, 150);
+height: 40vh;
+display: flex;
+justify-content: center;
+font-weight: bolder;
+margin-left: -10%;
+text-align: center;
+margin-top: -13%;
+ 
+animation:slide-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
+
+@include mobile-landscape{
+    margin-top: -8%;
+    height: 65vh;
+    
+}
+@include tablet{
+ 
+    margin-top: -8%;
+    height: 30vh;
+ 
+    
+}
+@include tablet-landscape{
+    margin-top: -5%;
+    padding-bottom: 12%;
+    height: 80%;
+}
+li{
+    margin-top: 2%;
+    @include tablet{
+        margin-left: 10%;
+        font-size: 2.5rem;
+     
+        
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+>ul{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+
+}
+
+#root > div > div.Header > div > div.logo-header > img{
+
+    @include tablet-landscape{
+        width: 10%;
+        height: 40%;
+        margin-top: 4%;
+    }
+    @include desktop{
+        margin-top: 3%;
+        width: 10%;
+        height: 40%;
+    }
+
+
+}
+ 
+ 
+@keyframes slide-bottom{0%{transform:translateY(-50px)}100%{transform:translateY(-10px)}}

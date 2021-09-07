@@ -1,0 +1,72 @@
+/*
+ * Home css File
+*/
+
+.Home {
+    
+  
+    /* propertys here */
+}
+.container-home{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >section{
+        border-radius: 8px;
+        margin-top: 8%;
+        height: 60vh;
+background-color: #ffffff;
+ 
+
+    }
+    >section>h1{
+       text-align: center;
+    }
+    >section>p{
+        width: 80%;
+        padding-left: 10%;
+        color: black;
+        background-color: transparent;
+    }
+    >section.bgh-1 > p{
+
+        color: white;
+    }
+    >section.bgh-2 > p{
+
+        color: white;
+    }
+   
+}
+.bgh-2{
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../../img/courier.png")
+    
+}
+.bgh-1{
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../../img/box3.jpg");
+    
+}
+ 
+
+.bgh-3{
+ 
+
+    >p>img{
+        width: 100%;
+    }
+}
+
+ 

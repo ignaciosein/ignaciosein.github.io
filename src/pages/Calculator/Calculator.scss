@@ -1,0 +1,76 @@
+/*
+ * Calculator css File
+*/
+
+.Calculator {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 120vh;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 12px;
+
+    /* propertys here */
+    input{
+        margin-top: 2%;
+        padding-left: 4%;
+        margin-left: 20%;
+        width: 60%;
+        border: solid 2px rgb(173, 173, 173);
+        border-radius: 8px;
+        height: 40px;
+        -webkit-box-shadow: 3px -7px 20px 1px rgba(0,0,0,0.23); 
+        box-shadow: 3px -7px 20px 1px rgba(0,0,0,0.23);
+     
+    }
+     select{
+         margin-top: 10%;
+        background-color: white;
+        padding-left: 4%;
+        margin-left: 20%;
+        width: 65%;
+        border: solid 2px rgb(173, 173, 173);
+        border-radius: 8px;
+        height: 40px;
+        -webkit-box-shadow: 3px -7px 20px 1px rgba(0,0,0,0.23); 
+        box-shadow: 3px -7px 20px 1px rgba(0,0,0,0.23);
+     }
+    button{
+        color: white;
+        margin-top: 4%;
+        margin-left: 30%;
+        height: 40px;
+        width: 40%;
+        border: solid 2px black;
+        border-radius: 10px;
+        background-color: red;
+     
+
+    }
+    label{
+        font-weight: bolder;
+        margin-left: 25%;
+    }
+}
+.line{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: 80%;
+    height: 2px;
+   border-top: 1px solid black ;
+}
+.totalPrice{
+    margin-top: 4%;
+    color: black;
+    margin-left: 25%;
+    width: 50%;
+    background-color: white;
+    font-size: 1.2rem;
+    animation:rotate-hor-center .5s cubic-bezier(.455,.03,.515,.955) both;
+
+}
+
+@keyframes rotate-hor-center{0%{transform:rotateX(0)}100%{transform:rotateX(-360deg)}}

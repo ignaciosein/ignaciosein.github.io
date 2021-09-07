@@ -1,0 +1,72 @@
+@import "../../../Sass/_querys";
+.Count {
+
+  
+
+
+
+}
+p
+ {
+     padding-top: 2%;
+     text-align: center;
+    margin: 0;
+    color: red;
+    font-size: 0.9rem;
+    justify-content: center;
+    font-weight: 500;
+    background-color: greenyellow;
+    justify-content: center;
+    height: 3vh;
+    @include mobile-landscape{
+        font-size: 0.8rem;
+        font-weight: bolder;
+        height: 5vh;
+         
+    }
+    @include tablet{
+        font-size: 1.5rem;
+        font-weight: bolder;
+     
+        
+    }
+    @include tablet-landscape{
+        
+         padding-bottom: 2%;
+    }
+    @include desktop{
+        font-size: 1rem;
+     
+        height: 5px;
+     
+
+    }
+ }
+ .discount{
+color: black;
+font-size: 0.8rem;
+@include mobile-landscape{
+    font-size: 0.8rem;
+    font-weight: bolder;
+     
+}
+  @include tablet{
+        font-size: 1.5rem;
+        font-weight: bolder;
+     
+        
+    }
+    @include desktop{
+        font-size: 1rem;
+    }
+
+     
+
+ }
+ .close-offer{
+ >h3 {margin-left: 90%;
+color: black;
+}
+    
+
+ }

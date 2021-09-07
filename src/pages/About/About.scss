@@ -1,0 +1,39 @@
+/*
+ * About css File
+*/
+
+.About {
+    
+    width: 90%;
+    background-color: white;
+    margin-left: 5%;
+    height: 90vh;
+    margin-bottom: 60%;
+    border-radius: 12px;
+    
+    /* propertys here */
+    >section{
+        width: 80%;
+        margin-left: 10%;
+        
+        margin-top: 10%;
+        padding-top: 10%;
+        padding-bottom: 20%;
+      
+    }
+    >section > img{
+        width: 100%;
+   
+    }
+    > section > p{
+         background-color: transparent;
+         color: black;
+    }
+}
+.google-map-code{
+    width: 100%;
+    border-radius: 12px;
+    -webkit-box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.17); 
+    box-shadow: 5px 5px 27px 5px rgba(0,0,0,0.17);
+}
+
